@@ -1,0 +1,222 @@
+@media (max-width: 1199.98px) {
+    .intro{
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro__left{
+        align-items: center;
+    }
+    .intro__title{
+        max-width: none;
+        text-align: center;
+    }
+    .first__bg,
+    .third__img,
+    .fourth__box-img
+    {
+        max-width: 100%;
+    }
+    .left, .right{
+        max-width: calc((100% - 24px)/ 2);
+    }
+    .left__icon, .right__icon{
+        transform: translate(-50%, -50%) scale(0.5)
+    }
+    .left__title, .right__title,
+    .fourth__box-title
+    {
+        font-size: 28px;
+    }
+    .left__title{
+        margin: 17px 0;
+    }
+    .right__text{
+        font-size: 14px;
+    }
+    .fourth__box-icon{
+        transform: translate(50%, -50%) scale(0.5);
+    }
+}
+@media (max-width: 991.98px){
+    .first__title,.third__title{
+        margin: 45px 0 41px;
+    }
+    .second__content,
+    .fourth__content{
+        flex-direction: column;
+    }
+    .left, .right,
+    .fourth__box{
+        max-width: 100%;
+    }
+    .left__info, .right__info
+    {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 20px;
+    }
+    .left__box, .right__box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left__title{
+        margin: 0 0 17px;
+    }
+    .right__text{
+        margin: 17px 0 0;
+    }
+    .left__icon, .right__icon{
+        transform: translate(0, -50%) scale(0.8)
+    }
+    .fourth__box{
+        padding: 0;
+    }
+    .fourth__box-img{
+        max-width: 280px;
+    }
+    .fourth__box-info{
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+    }
+    .title{
+        max-width: 250px;
+        margin-bottom: 0;
+    }
+    .fourth__box-icon{
+        transform: translate(0, -50%) scale(0.8)
+    }
+    .feedbacks__content{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .feedbacks__left{
+        max-width: none;
+    }
+    .feedbacks__left-text,
+    .feedbacks__right{
+        max-width: 510px;
+        width: 100%;
+    }
+    .team__info{
+        margin-top: 100px;
+    }
+}
+@media (max-width: 767.98px){
+    .intro__right img{
+        max-width: 100%;
+    }
+    .header__nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .left__info, .right__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left__box{
+        padding-bottom: 20px;
+    }
+    .left__img{
+        max-width: 400px;
+    }
+    .right__box{
+        margin-top: 20px;
+    }
+    .fourth__box-info{
+        gap: 20px;
+    }
+    .fourth__box-title{
+        font-size: 24px;
+    }
+    .title{
+        max-width: 200px;
+    }
+    .feedbacks{
+        margin-top: 97px;
+    }
+    .team__text{
+        max-width: 540px;
+    }
+    .footer{
+        margin-top: 97px;
+    }
+    .footer__nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+@media (max-width: 575.98px){
+    .intro__title{
+        font-size: 24px;
+    }
+    .intro{
+        padding: 25px 25px 0;
+    }
+    .intro__left{
+        margin-bottom: 24px;
+    }
+    .first__title, .third__title{
+        max-width: 280px;
+        font-size: 28px;
+    }
+    .left__img,
+    .right__img{
+        max-width: 240px;
+    }
+    .fourth__box-info{
+        flex-direction: column;
+    }
+    .fourth__box-title{
+        margin: 24px 0;
+    }
+    .feedbacks__left-title{
+        font-size: 24px;
+        text-align: center;
+    }
+    .feedbacks__left-text{
+        max-width: 280px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .twitter__card{
+        margin: 0 10px;
+    }
+    .team__info{
+        margin-top: 60px;
+    }
+    .team__title{
+        font-size: 32px;
+    }
+    .team__text {
+        max-width: 280px;
+        font-size: 14px;
+    }
+    .team__members{
+        flex-direction: column;
+        gap: 17px;
+    }
+    .team__member-title{
+        margin-top: 14px;
+    }
+    .footer{
+        margin-top: 60px;
+    }
+    .footer__title{
+        font-size: 32px;
+    }
+    .footer__text, .footer__text-1{
+        max-width: 320px;
+        text-align: center;
+    }
+    .footer__nav{
+        gap: 30px;
+    }
+    .footer__nav-list{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
